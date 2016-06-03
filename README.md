@@ -32,7 +32,8 @@ Project has been done in Amiqual4Home Equipex Creativity Lab - https://amiqual4h
 
 * In order to have enough space to set up the hardware, you change the original structure to amplify it and make it more optimized project needs
 
-<img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/DustV2.jpg" width="400">
-
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/DustV2.1.jpg" width="400">
+<img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/insideDust.jpg" width="400">
+
+
 
