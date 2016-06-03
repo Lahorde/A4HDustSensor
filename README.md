@@ -35,6 +35,10 @@ Project has been done in Amiqual4Home Equipex Creativity Lab - https://amiqual4h
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/DustV2.1.jpg" width="400">
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/InsideDust.jpg" width="400">
 
+# Dust sensor in operation :
+
+<img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/DustWorking.jpg" width="400">
+
 * Particle Core :
 
 The Spark Core is a complete Wi-Fi enabled development platform for creating connected devices with ease. Please note, this is not truly Arduino-compatible - Their IDE works with many Arduino examples and there have been libraries that are ported to the STM processor on board but even though they say 'Arduino-compatible' we would classify it more like "Arduino-like programming language"
