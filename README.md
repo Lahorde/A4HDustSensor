@@ -36,14 +36,31 @@ Project has been done in Amiqual4Home Equipex Creativity Lab - https://amiqual4h
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/InsideDust.jpg" width="400">
 
 * Particle Core :
-*
+
 The Spark Core is a complete Wi-Fi enabled development platform for creating connected devices with ease. Please note, this is not truly Arduino-compatible - Their IDE works with many Arduino examples and there have been libraries that are ported to the STM processor on board but even though they say 'Arduino-compatible' we would classify it more like "Arduino-like programming language"
 
 
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/PHOTOn.jpg" width="500">
 
-For the project, it will allow us to recover the amount of dust raised by the sensor values and retrieve them for a graphic visualization
+* For the project, it will allow us to recover the amount of dust raised by the sensor values and retrieve them for a graphic visualization
 
+# Dust sensor control over particle API
+
+* functions:
+
+## Send variable over particle API
+
+  * Spark.variable ("dustval" dustVal & DOUBLE);
+
+This function sends the amount of dust collected by the sensor values on the Web server of the core particle.
+
+## Read variable over particle API
+* curl https://api.spark.io/v1/devices/'PHOTON_ID'/'VARIABLE'?access_token='YOUR_TOKEN'
+
+## Example : 
+* curl_setopt_array ($ curl, array (CURLOPT_RETURNTRANSFER => 1, CURLOPT_URL =>'https://api.spark.io/v1/devices/55ff6d065075555319241887/dustVal/?access_token=0e0e6f8b604ce26ec3206c64bbf333b34174498d'));
+
+This function recovered the values sent by the particle core web server
 
 
 
