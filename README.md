@@ -20,3 +20,10 @@ Project has been done in Amiqual4Home Equipex Creativity Lab - https://amiqual4h
 * 1 RGB LED strip
 * 1 frame manufactured with 3D printer
 * SHARP Compact Optical Sensor Dust GP2Y1010AU0F
+
+<img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/DustV1.jpg" width="500">
+
+# Setup
+## hardware 
+
+* For this model, we'll add an air control with a LED RGB strip with different colors to inform air quality of statements and a piezo buzeur to alert the user that the ambient air is bad quality
