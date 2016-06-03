@@ -81,9 +81,9 @@ Then retrieves these values to record in a database and displayed.
 
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/influxDB.PNG" width="600">
 
-## Visualization :
+# Visualization :
 
-# Grafana : 
+## Grafana : 
 
 * Grafana est le plus couramment utilisé pour la visualisation des données de séries chronologiques pour les infrastructures Internet et d'applications analytiques, mais beaucoup l'utiliser dans d'autres domaines, y compris les capteurs industriels, la domotique, la météo et le contrôle des processus.
 
