@@ -28,5 +28,5 @@ Project has been done in Amiqual4Home Equipex Creativity Lab - https://amiqual4h
 
 * For this model, we'll add an air control with a LED RGB strip with different colors to inform air quality of statements and a piezo buzeur to alert the user that the ambient air is bad quality
 
-<img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/Capture.PNG" width="300">
+<img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/Capture.PNG" width="600">
 
