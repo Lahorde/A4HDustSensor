@@ -65,6 +65,35 @@ Then retrieves these values to record in a database and displayed.
 
 # For further :
 
+## Node-RED :
+
+* Node-RED is a visual tool for wiring and devices, APIs and services online - wiring the Internet of Things
+* This allows to quickly create a complete chain from sensor to record data (can view) 
+
+<img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/node-red.jpg" width="500">
+
+# Data recording
+
+## InfluxDB :
+
+* InfluxDB is an open source database written in Go specifically to handle time series data with high availability and high performance requirements. 
+* InfluxDB installs in minutes without external dependencies, yet is flexible and scalable enough for complex deployments.
+
+<img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/influxDB.jpg" width="500">
+
+## Visualization :
+
+# Grafana : 
+
+* Grafana est le plus couramment utilisé pour la visualisation des données de séries chronologiques pour les infrastructures Internet et d'applications analytiques, mais beaucoup l'utiliser dans d'autres domaines, y compris les capteurs industriels, la domotique, la météo et le contrôle des processus.
+
+Visualization datas dust sensor : 
+
+<img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/Grafana.jpg" width="500">
+
+
+
+
 
 
 
