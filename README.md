@@ -35,7 +35,7 @@ Project has been done in Amiqual4Home Equipex Creativity Lab - https://amiqual4h
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/DustV2.1.jpg" width="400">
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/InsideDust.jpg" width="400">
 
-# Dust sensor in operation :
+## Dust sensor in operation :
 
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/DustWorking.jpg" width="400">
 
