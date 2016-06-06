@@ -24,7 +24,7 @@ Project has been done in Amiqual4Home Equipex Creativity Lab - https://amiqual4h
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/DustV1.jpg" width="500">
 
 # Setup
-## hardware 
+## hardware :
 
 * For this model, we'll add an air control with a LED RGB strip with different colors to inform air quality of statements and a piezo buzeur to alert the user that the ambient air is bad quality
 
@@ -50,15 +50,15 @@ The Spark Core is a complete Wi-Fi enabled development platform for creating con
 
 # Dust sensor control over particle API
 
-* functions:
+* Functions :
 
-## Send variable over particle API
+## Send variable over particle API :
 
   * Spark.variable ("dustval" dustVal & DOUBLE);
 
 This function sends the amount of dust collected by the sensor values on the Web server of the core particle.
 
-## Read variable over particle API
+## Read variable over particle API :
 * curl https://api.spark.io/v1/devices/'PHOTON_ID'/'VARIABLE'?access_token='YOUR_TOKEN'
 
 ## Example : 
@@ -67,7 +67,7 @@ This function sends the amount of dust collected by the sensor values on the Web
 This function recovered the values sent by the particle core web server
 Then retrieves these values to record in a database and displayed.
 
-# For further :
+# For further 
 
 ## Node-RED :
 
