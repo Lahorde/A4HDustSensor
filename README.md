@@ -7,7 +7,7 @@ Dust sensor for monitoring the working condition in a place with more or less du
 Project has been done in Amiqual4Home Equipex Creativity Lab - https://amiqual4home.inria.fr/
 
 # Prerequisities
- * Photon with latest firmware updates :
+ * Photon with latest firmware updates 
      
     ```
 	sudo particle flash --usb cc3000
@@ -39,7 +39,7 @@ Project has been done in Amiqual4Home Equipex Creativity Lab - https://amiqual4h
 
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/DustWorking.jpg" width="400">
 
-* Particle Core :
+* Particle Core
 
 The Spark Core is a complete Wi-Fi enabled development platform for creating connected devices with ease. Please note, this is not truly Arduino-compatible - Their IDE works with many Arduino examples and there have been libraries that are ported to the STM processor on board but even though they say 'Arduino-compatible' we would classify it more like "Arduino-like programming language"
 
@@ -50,7 +50,7 @@ The Spark Core is a complete Wi-Fi enabled development platform for creating con
 
 # Dust sensor control over particle API
 
-* Functions :
+* Functions
 
 ## Send variable over particle API :
 
@@ -85,7 +85,7 @@ Then retrieves these values to record in a database and displayed.
 
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/influxDB.PNG" width="600">
 
-# Visualization :
+# Visualization 
 
 ## Grafana : 
 
