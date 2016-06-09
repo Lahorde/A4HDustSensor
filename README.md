@@ -91,7 +91,7 @@ Then retrieves these values to record in a database and displayed.
 
 * Grafana is most commonly used for visualizing time series data for the Internet infrastructure and analytical applications, but many use it in other areas, including industrial sensors, home automation, weather and Control process.
 
-Visualization datas dust sensor : 
+* Visualization datas dust sensor  
 
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/Grafana.PNG" width="600">
 
