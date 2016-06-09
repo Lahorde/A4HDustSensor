@@ -89,7 +89,7 @@ Then retrieves these values to record in a database and displayed.
 
 ## Grafana : 
 
-* Grafana est le plus couramment utilisé pour la visualisation des données de séries chronologiques pour les infrastructures Internet et d'applications analytiques, mais beaucoup l'utiliser dans d'autres domaines, y compris les capteurs industriels, la domotique, la météo et le contrôle des processus.
+* Grafana is most commonly used for visualizing time series data for the Internet infrastructure and analytical applications, but many use it in other areas, including industrial sensors, home automation, weather and Control process.
 
 Visualization datas dust sensor : 
 
