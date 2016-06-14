@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Css.css" type="text/css" media="screen" />
+  <h1> Historique poussière dans l'air </h1>
+  <marquee direction="left">Le saviez-vous? un excédant de poussière peut être nocif</marquee>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Loading external data DustSensor</title>
+  <script src="http://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script src="http://www.amcharts.com/lib/3/serial.js"></script>
+  <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+  <script src="http://www.amcharts.com/lib/3/plugins/dataloader/dataloader.min.js"></script>
+</head>
+<body>
+<iframe src=" http://localhost:3000/dashboard/snapshot/fx4keAEBXWtC8U8pK9GRmKBGHJtQJyiB
+" width="1550" height="400" frameborder="0"></iframe>
+  <div id="chartdiv" style="width: 100%; height: 500px;"></div>
+  <a href="http://travail-emploi.gouv.fr/sante-au-travail/prevention-des-risques/autres-dangers-et-risques/article/poussieres">Informations/Reglementations sur les taux de poussières</a> 
+  <script>
+
+var chart = AmCharts.makeChart("chartdiv", {
+    "type": "serial",
+    "theme": "light",
+    "marginRight": 40,
+    "marginLeft": 40,
+    "autoMarginOffset": 40,
+    "mouseWheelZoomEnabled":true,
+    "dataLoader": {
+    "url": "dust.php"
+    },
+    "pathToImages": "http://www.amcharts.com/lib/images/",
+    "chart.dataDateFormat": "YYYY",
+    "startDuration": 0,
+    "categoryAxis": {
+    "chart.parseDates": true
+    },
+    "valueAxes": [{
+        "id": "v1",
+        "axisAlpha": 0,
+        "position": "left",
+        "ignoreAxisWidth":true
+    }],
+
+    "graphs": [{
+        "id": "g1",
+        "balloon":{
+          "adjustBorderColor":true,
+          "color":"#ffffff"
+        },
+        "bullet": "round",
+        "bulletBorderAlpha": 1,
+        "bulletColor": "#FFFFFF",
+        "bulletSize": 5,
+        "lineThickness": 5,
+	"lineColor" : "#000000",
+
+        "title": "red line",
+        "useLineColorForBulletBorder": true,
+        "valueField": "Dust",
+        "balloonText": "<img src='http://cdn.xl.thumbs.canstockphoto.fr/canstock11099033.jpg' style='vertical-align:bottom;     margin-right: 10px; width:28px; height:30px;'><span style='font-size:14px; color:#000000;'><b>[[Dust]]</b></span>"
+
+    }],
+     
+    "chartScrollbar": {
+        "graph": "g1",
+	"gridAlpha":0,
+        "graphType": "smoothedLine",
+
+        "oppositeAxis":true,
+        "offset":50,
+        "scrollbarHeight": 60,
+        "autoGridCount":false,
+	"scrollbarHeight" : 60,
+	"color":"#FEFEFE"
+    },
+    "chartCursor": {
+
+        "valueLineEnabled": true,
+        "valueLineBalloonEnabled": true,
+        "cursorAlpha":0,
+        "zoomable":true,
+        "valueZoomable":true,
+        "valueLineAlpha":0.5
+   },
+
+    "valueScrollbar":{
+      "oppositeAxis":false,
+      "offset":50,
+      "scrollbarHeight":30
+
+    },
+    "categoryField": "Temps",
+    "categoryAxis": {
+    "chart.parseDates": true,
+    "labelRotation": 45
+
+    },
+ 
+    "export": {
+    	"enabled": true
+  }
+});
+
+chart.addListener("rendered", zoomChart);
+
+zoomChart();
+
+function zoomChart() {
+    chart.zoomToIndexes(chart.dataProvider.length - 40, chart.dataProvider.length - 1);
+}
+
+  </script>
+</body>
+</html>
