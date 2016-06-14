@@ -59,10 +59,13 @@ The Spark Core is a complete Wi-Fi enabled development platform for creating con
 This function sends the amount of dust collected by the sensor values on the Web server of the core particle.
 
 ## Read variable over particle API :
+* Here is the PHP code to access the core of the server and retrieve variables
+
 * curl https://api.spark.io/v1/devices/'PHOTON_ID'/'VARIABLE'?access_token='YOUR_TOKEN'
 
 ## Example : 
 
+* Sample PHP code applied to the project Dust Sensor
 * curl_setopt_array ($ curl, array (CURLOPT_RETURNTRANSFER => 1, CURLOPT_URL =>'https://api.spark.io/v1/devices/55ff6d065075555319241887/dustVal/?access_token=0e0e6f8b604ce26ec3206c64bbf333b34174498d'));
 
 This function recovered the values sent by the particle core web server
