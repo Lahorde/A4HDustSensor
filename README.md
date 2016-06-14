@@ -54,6 +54,7 @@ The Spark Core is a complete Wi-Fi enabled development platform for creating con
 ## Send variable over particle API :
 
   * Spark.variable ("dustval" dustVal & DOUBLE);
+  * Contains entries (and type) corresponding to API variables declared in our program Spark.variable ()
 
 This function sends the amount of dust collected by the sensor values on the Web server of the core particle.
 
