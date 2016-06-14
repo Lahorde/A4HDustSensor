@@ -16,7 +16,6 @@ Project has been done in Amiqual4Home Equipex Creativity Lab - https://amiqual4h
 * Photon with latest firmware updates:
 * sudo particle flash --usb CC3000
 * sudo particle flash --usb deep_update_2014_06
-* 1 transformer 220V to 5V
 * 1 RGB LED strip
 * 1 frame manufactured with 3D printer
 * SHARP Compact Optical Sensor Dust GP2Y1010AU0F
@@ -44,7 +43,7 @@ Project has been done in Amiqual4Home Equipex Creativity Lab - https://amiqual4h
 The Spark Core is a complete Wi-Fi enabled development platform for creating connected devices with ease. Please note, this is not truly Arduino-compatible - Their IDE works with many Arduino examples and there have been libraries that are ported to the STM processor on board but even though they say 'Arduino-compatible' we would classify it more like "Arduino-like programming language"
 
 
-<img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/PHOTOn.jpg" width="500">
+<img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/CORE.jpg" width="500">
 
 * For the project, it will allow us to recover the amount of dust raised by the sensor values and retrieve them for a graphic visualization
 
