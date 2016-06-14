@@ -76,6 +76,8 @@ Then retrieves these values to record in a database and displayed.
 
 <img src="https://github.com/Tobias38420/A4HDustSensor/blob/master/img/node-red.PNG" width="600">
 
+* The routine is available in the folder : routing_data.
+
 # Data recording
 
 ## InfluxDB :
